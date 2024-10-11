@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    background-color: darkolivegreen;
+    padding-left: 2rem;
+}
+
+main .main {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+main ul li .active-link {
+    text-decoration: none;
+    color: white;
+    padding: .75rem;
+}
+
+main ul li .active-link:hover,
+main ul li .link-active {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+.start {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.desc {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.start .icon {
+    padding-bottom: 3rem;
+}
+
+.games {
+    padding-top: 3rem;
+}
+
+.start h2 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+num {
+    color: darkolivegreen;
+}
+
+.body-pg {
+    display: flex;
+    padding: 2rem;
+}
+
+.body-pg img {
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.body-pg img:hover {
+    scale: 1.025;
+    transition: .2s;
+}
+
+.detail {
+    padding-left: 2rem;
+    line-height: 1.5;
+}
+
+.detail h1 {
+    color: darkolivegreen;
+    font-size: 3rem;
+}
+
+.detail h3 {
+    padding-bottom: 1rem;
+}
+
+.detail ul {
+    list-style: none;
+}
+
+.visit {
+    padding-top: 1rem;
+}
+
+.all-subs {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.subs {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.subs:hover {
+    color: white;
+    background-color: black;
+}
+
+.all-games {
+    padding-bottom: 3rem;
+}
+
+footer {
+    font-weight: 500;
+    text-align: center;
+    padding: 2rem;
+}
+
+.copyright {
+    font-size: .75rem;
+    padding-top: .5rem;
+}
