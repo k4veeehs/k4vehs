@@ -7,6 +7,11 @@
     font-family: "Inter", sans-serif;
 }
 
+body {
+    background: rgb(204, 238, 174);
+    background: linear-gradient(90deg, rgba(204, 238, 174, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
 main {
     background-color: darkolivegreen;
     padding-left: 2rem;
@@ -24,6 +29,7 @@ main ul li .active-link {
     text-decoration: none;
     color: white;
     padding: .75rem;
+    transition: .2s;
 }
 
 main ul li .active-link:hover,
@@ -31,6 +37,7 @@ main ul li .link-active {
     background-color: white;
     color: black;
     border-radius: 50px;
+    transition: .2s;
 }
 
 .start {
@@ -39,6 +46,7 @@ main ul li .link-active {
 }
 
 .title {
+    padding-top: 2rem;
     font-size: 4rem;
 }
 
@@ -71,12 +79,14 @@ num {
     padding: 2rem;
 }
 
-.body-pg img {
-    border-radius: 50px;
+.body-pg .main-page {
+    border-radius: 20px;
     transition: .2s;
 }
 
-.body-pg img:hover {
+.body-pg .main-page:hover,
+.videos-content img:hover,
+.news-img:hover {
     scale: 1.025;
     transition: .2s;
 }
@@ -115,15 +125,81 @@ num {
     padding: 1rem;
     border-radius: 50px;
     font-weight: 500;
+    transition: .2s;
 }
 
 .subs:hover {
     color: white;
     background-color: black;
+    transition: .2s;
 }
 
 .all-games {
     padding-bottom: 3rem;
+}
+
+.all-videos-content {
+    padding-left: 2rem;
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+}
+
+.all-videos-content img {
+    border-radius: 20px;
+}
+
+.videos-content {
+    text-align: center;
+}
+
+.videos-content img {
+    transition: .2s;
+}
+
+.video-title {
+    padding-top: .5rem;
+    font-weight: 450;
+    padding-bottom: 1.5rem;
+}
+
+.watch {
+    border-radius: 10px;
+    padding: .5rem;
+    width: fit-content;
+}
+
+.news {
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.news-img {
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.news-watch {
+    padding-top: 2rem;
+}
+
+.news-article {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.year {
+    font-size: 2.5rem;
+}
+
+.date-line {
+    width: 200px;
+    border: black solid 1px;
+}
+
+.news-detail {
+    padding-top: 3rem;
 }
 
 footer {
@@ -135,4 +211,8 @@ footer {
 .copyright {
     font-size: .75rem;
     padding-top: .5rem;
+}
+
+.media-content {
+    padding-top: 1rem;
 }
